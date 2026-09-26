@@ -7,85 +7,100 @@
 
     <title>Varshitha Tanniru | Java Backend Developer</title>
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Portfolio of Varshitha Tanniru - Java Backend Developer, DSA enthusiast and Computer Science undergraduate.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- Background Effects -->
-    <div class="background">
-        <div class="glow glow-one"></div>
-        <div class="glow glow-two"></div>
-    </div>
+    <!-- ================= NAVBAR ================= -->
 
+    <header class="navbar">
 
-    <!-- Navigation -->
-    <header class="header">
+        <div class="nav-container">
 
-        <nav class="navbar">
-
-            <a href="#" class="logo">
+            <a href="#home" class="logo">
                 VT<span>.</span>
             </a>
 
-            <div class="nav-links">
+            <nav>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#experience">Experience</a>
+                <a href="#achievements">Achievements</a>
                 <a href="#contact">Contact</a>
-            </div>
+            </nav>
 
-            <a
-                class="nav-button"
-                href="https://github.com/varshitha07-tanniru"
-                target="_blank">
-                GitHub ↗
-            </a>
-
-        </nav>
+        </div>
 
     </header>
 
 
-    <!-- HERO -->
-    <main>
+    <!-- ================= HERO ================= -->
 
-        <section class="hero">
+    <section class="hero" id="home">
+
+        <div class="hero-container">
 
             <div class="hero-content">
 
-                <p class="availability">
-                    <span></span>
-                    Open to opportunities
+                <p class="eyebrow">
+                    COMPUTER SCIENCE UNDERGRADUATE
                 </p>
 
                 <h1>
-                    Building with
-                    <span>logic.</span>
-                    <br>
-                    Solving with
-                    <span>code.</span>
+                    Building reliable
+                    <span>backend systems.</span>
                 </h1>
 
                 <p class="hero-description">
-                    I'm <strong>Varshitha Tanniru</strong>, a Computer Science
-                    undergraduate focused on Java backend development,
-                    Data Structures & Algorithms and building practical
-                    software solutions.
+                    I'm Varshitha Tanniru, a Computer Science student focused on
+                    Java backend development, Data Structures & Algorithms,
+                    SQL and problem solving.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#projects" class="primary-button">
-                        Explore My Work ↓
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects
                     </a>
 
-                    <a
-                        href="https://www.linkedin.com/in/varshitha-tanniru-95480431a"
+                    <a href="https://github.com/varshitha07-tanniru"
                         target="_blank"
-                        class="secondary-button">
-                        LinkedIn ↗
+                        class="btn secondary-btn">
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+                <div class="hero-links">
+
+                    <a href="https://www.linkedin.com/in/varshitha-tanniru-95480431a"
+                        target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <span>•</span>
+
+                    <a href="https://github.com/varshitha07-tanniru"
+                        target="_blank">
+                        GitHub
+                    </a>
+
+                    <span>•</span>
+
+                    <a href="mailto:varshithatanniru@gmail.com">
+                        Email
                     </a>
 
                 </div>
@@ -93,13 +108,14 @@
             </div>
 
 
-            <!-- Profile Card -->
+            <!-- PROFILE CARD -->
+
             <div class="profile-card">
 
                 <div class="profile-image-wrapper">
 
                     <img
-                        src="profile.jpeg"
+                        src="./profile.jpeg"
                         alt="Varshitha Tanniru"
                         class="profile-image">
 
@@ -109,146 +125,133 @@
 
                     <span>JAVA BACKEND DEVELOPER</span>
 
-                    <h3>Varshitha Tanniru</h3>
+                    <h3>
+                        Varshitha Tanniru
+                    </h3>
 
-                    <p>Building. Solving. Learning.</p>
+                    <p>
+                        Building. Solving. Learning.
+                    </p>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- STATS -->
-        <section class="stats">
+    <!-- ================= STATS ================= -->
 
-            <div class="stat">
-                <h2>500<span>+</span></h2>
-                <p>LeetCode Problems</p>
-            </div>
+    <section class="stats">
 
-            <div class="stat">
-                <h2>9.8<span>/10</span></h2>
-                <p>CGPA</p>
-            </div>
+        <div class="stats-container">
 
             <div class="stat">
-                <h2>8<span>%</span></h2>
-                <p>AlgoUniversity Rank</p>
+                <strong>500+</strong>
+                <span>LeetCode Problems</span>
             </div>
 
             <div class="stat">
-                <h2>3<span>+</span></h2>
-                <p>Projects</p>
+                <strong>9.8</strong>
+                <span>CGPA / 10</span>
             </div>
 
-        </section>
-
-
-        <!-- ABOUT -->
-        <section id="about" class="section">
-
-            <div class="section-label">
-                01 / ABOUT
+            <div class="stat">
+                <strong>8%</strong>
+                <span>AlgoUniversity Rank</span>
             </div>
+
+            <div class="stat">
+                <strong>Java</strong>
+                <span>Backend Focus</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section" id="about">
+
+        <div class="section-container">
 
             <div class="section-heading">
 
-                <h2>
-                    Turning problems into
-                    <span>solutions.</span>
-                </h2>
+                <span>01</span>
 
-                <p>
-                    I enjoy understanding how things work behind the scenes
-                    and turning that understanding into working software.
-                </p>
+                <h2>
+                    About Me
+                </h2>
 
             </div>
 
-
-            <div class="about-grid">
+            <div class="about-content">
 
                 <div class="about-text">
 
                     <p>
-                        I'm a Computer Science undergraduate with a strong
-                        interest in Java backend development and problem solving.
-                        My learning journey has taken me from Core Java and SQL
-                        to JDBC, Servlets, JSP, Maven and Data Structures &
-                        Algorithms.
+                        I'm a Computer Science undergraduate passionate about
+                        backend development and problem solving.
                     </p>
 
                     <p>
-                        I like building projects that strengthen my understanding
-                        of backend architecture, databases and real-world
-                        application development.
+                        My current focus is building strong fundamentals in
+                        Java, SQL, JDBC, Servlets, JSP, Maven and Data
+                        Structures & Algorithms.
+                    </p>
+
+                    <p>
+                        I enjoy understanding how systems work internally and
+                        turning concepts into practical projects.
                     </p>
 
                 </div>
 
+                <div class="about-box">
 
-                <div class="about-highlights">
-
-                    <div class="highlight">
-
-                        <span>01</span>
-
-                        <div>
-                            <h3>Backend Focus</h3>
-                            <p>Java · JDBC · Servlets · SQL</p>
-                        </div>
-
+                    <div>
+                        <span>Focus</span>
+                        <strong>Java Backend</strong>
                     </div>
 
-
-                    <div class="highlight">
-
-                        <span>02</span>
-
-                        <div>
-                            <h3>Problem Solving</h3>
-                            <p>DSA · Graphs · Trees · DP</p>
-                        </div>
-
+                    <div>
+                        <span>Currently Learning</span>
+                        <strong>Spring & Advanced DSA</strong>
                     </div>
 
-
-                    <div class="highlight">
-
-                        <span>03</span>
-
-                        <div>
-                            <h3>Continuous Learning</h3>
-                            <p>Building · Practicing · Improving</p>
-                        </div>
-
+                    <div>
+                        <span>Problem Solving</span>
+                        <strong>500+ LeetCode</strong>
                     </div>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- SKILLS -->
-        <section id="skills" class="section">
+    <!-- ================= SKILLS ================= -->
 
-            <div class="section-label">
-                02 / SKILLS
-            </div>
+    <section class="section alternate" id="skills">
+
+        <div class="section-container">
 
             <div class="section-heading">
 
+                <span>02</span>
+
                 <h2>
-                    My technical
-                    <span>toolbox.</span>
+                    Technical Skills
                 </h2>
 
             </div>
-
 
             <div class="skills-grid">
 
@@ -258,12 +261,9 @@
 
                     <h3>Languages</h3>
 
-                    <div class="tags">
-                        <span>Java</span>
-                        <span>Python</span>
-                        <span>C</span>
-                        <span>SQL</span>
-                    </div>
+                    <p>
+                        Java, Python, C, SQL
+                    </p>
 
                 </div>
 
@@ -274,12 +274,9 @@
 
                     <h3>Backend</h3>
 
-                    <div class="tags">
-                        <span>JDBC</span>
-                        <span>Servlets</span>
-                        <span>JSP</span>
-                        <span>Maven</span>
-                    </div>
+                    <p>
+                        JDBC, Servlets, JSP, Maven, REST APIs
+                    </p>
 
                 </div>
 
@@ -288,14 +285,11 @@
 
                     <div class="skill-number">03</div>
 
-                    <h3>Development</h3>
+                    <h3>Database</h3>
 
-                    <div class="tags">
-                        <span>MySQL</span>
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>REST APIs</span>
-                    </div>
+                    <p>
+                        MySQL, SQL, JDBC
+                    </p>
 
                 </div>
 
@@ -304,41 +298,61 @@
 
                     <div class="skill-number">04</div>
 
+                    <h3>Tools</h3>
+
+                    <p>
+                        Git, GitHub, Eclipse, Apache Tomcat
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">05</div>
+
                     <h3>DSA</h3>
 
-                    <div class="tags">
-                        <span>Arrays</span>
-                        <span>Trees</span>
-                        <span>Graphs</span>
-                        <span>DSU</span>
-                        <span>DP</span>
-                    </div>
+                    <p>
+                        Arrays, Trees, Graphs, BFS, DFS, Dijkstra,
+                        MST, DSU and more
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">06</div>
+
+                    <h3>Currently Learning</h3>
+
+                    <p>
+                        Spring Framework, Dynamic Programming
+                    </p>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- PROJECTS -->
-        <section id="projects" class="section">
+    <!-- ================= PROJECTS ================= -->
 
-            <div class="section-label">
-                03 / PROJECTS
-            </div>
+    <section class="section" id="projects">
+
+        <div class="section-container">
 
             <div class="section-heading">
 
-                <h2>
-                    Things I've
-                    <span>built.</span>
-                </h2>
+                <span>03</span>
 
-                <p>
-                    A few projects where I turned concepts into working
-                    applications.
-                </p>
+                <h2>
+                    Projects
+                </h2>
 
             </div>
 
@@ -347,12 +361,13 @@
 
 
                 <!-- PROJECT 1 -->
-                <article class="project-card featured">
+
+                <article class="project-card">
 
                     <div class="project-top">
 
                         <span class="project-type">
-                            WEB APPLICATION
+                            JAVA BACKEND
                         </span>
 
                         <a
@@ -363,26 +378,30 @@
 
                     </div>
 
-                    <h3>Student Management System</h3>
+                    <h3>
+                        Student Management System
+                    </h3>
 
                     <p>
-                        A web-based student management application supporting
-                        CRUD operations, authentication, sessions and database
-                        management.
+                        A Java web application for managing student records
+                        with authentication, CRUD operations, search and
+                        session management.
                     </p>
 
                     <div class="project-tech">
+
                         <span>Java</span>
                         <span>JDBC</span>
                         <span>Servlets</span>
                         <span>JSP</span>
                         <span>MySQL</span>
+
                     </div>
 
                     <a
-                        class="project-link"
                         href="https://github.com/varshitha07-tanniru/StudentManagementSystem"
-                        target="_blank">
+                        target="_blank"
+                        class="project-link">
                         View on GitHub →
                     </a>
 
@@ -390,12 +409,13 @@
 
 
                 <!-- PROJECT 2 -->
+
                 <article class="project-card">
 
                     <div class="project-top">
 
                         <span class="project-type">
-                            BACKEND
+                            JDBC
                         </span>
 
                         <a
@@ -406,24 +426,28 @@
 
                     </div>
 
-                    <h3>E-Commerce Application</h3>
+                    <h3>
+                        Ecommerce Backend
+                    </h3>
 
                     <p>
-                        A backend-focused e-commerce application built with
-                        Core Java and JDBC, focusing on database operations
-                        and application logic.
+                        A Java and JDBC based ecommerce application implementing
+                        database operations and backend business logic.
                     </p>
 
                     <div class="project-tech">
+
                         <span>Java</span>
                         <span>JDBC</span>
                         <span>MySQL</span>
+                        <span>SQL</span>
+
                     </div>
 
                     <a
-                        class="project-link"
                         href="https://github.com/varshitha07-tanniru/EcommerceProject-JDBC-ONLY"
-                        target="_blank">
+                        target="_blank"
+                        class="project-link">
                         View on GitHub →
                     </a>
 
@@ -431,6 +455,7 @@
 
 
                 <!-- PROJECT 3 -->
+
                 <article class="project-card">
 
                     <div class="project-top">
@@ -447,46 +472,53 @@
 
                     </div>
 
-                    <h3>DSA Quest</h3>
+                    <h3>
+                        DSA Quest
+                    </h3>
 
                     <p>
-                        A growing collection of Data Structures and Algorithms
-                        solutions covering multiple problem-solving patterns
-                        and core DSA topics.
+                        A collection of Data Structures and Algorithms
+                        solutions developed through consistent problem-solving
+                        practice.
                     </p>
 
                     <div class="project-tech">
+
                         <span>Java</span>
                         <span>DSA</span>
-                        <span>Problem Solving</span>
+                        <span>Algorithms</span>
+                        <span>LeetCode</span>
+
                     </div>
 
                     <a
-                        class="project-link"
                         href="https://github.com/varshitha07-tanniru/DSA_QUEST"
-                        target="_blank">
-                        View Repository →
+                        target="_blank"
+                        class="project-link">
+                        View on GitHub →
                     </a>
 
                 </article>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- EXPERIENCE -->
-        <section id="experience" class="section">
+    <!-- ================= EXPERIENCE ================= -->
 
-            <div class="section-label">
-                04 / EXPERIENCE
-            </div>
+    <section class="section alternate" id="experience">
+
+        <div class="section-container">
 
             <div class="section-heading">
 
+                <span>04</span>
+
                 <h2>
-                    Where I've
-                    <span>learned.</span>
+                    Experience
                 </h2>
 
             </div>
@@ -500,16 +532,18 @@
 
                     <div class="timeline-content">
 
-                        <span class="timeline-date">
+                        <div class="timeline-date">
                             WINTER INTERNSHIP
-                        </span>
+                        </div>
 
-                        <h3>IIT Ropar</h3>
+                        <h3>
+                            IIT Ropar
+                        </h3>
 
                         <p>
-                            Gained practical experience through a software
-                            development internship project and worked with
-                            application development concepts.
+                            Worked on a web-based project and gained practical
+                            experience in application development, project
+                            collaboration and software development workflows.
                         </p>
 
                     </div>
@@ -523,16 +557,18 @@
 
                     <div class="timeline-content">
 
-                        <span class="timeline-date">
-                            2026
-                        </span>
+                        <div class="timeline-date">
+                            COMPUTER SCIENCE
+                        </div>
 
-                        <h3>Technical & Leadership Activities</h3>
+                        <h3>
+                            R.V.R & J.C. College of Engineering
+                        </h3>
 
                         <p>
-                            Organized and participated in technical events,
-                            seminars and college-level activities while
-                            contributing to student communities.
+                            B.Tech in Computer Science and Engineering
+                            with a focus on Java backend development,
+                            problem solving and software engineering.
                         </p>
 
                     </div>
@@ -541,109 +577,206 @@
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- ACHIEVEMENTS -->
-        <section class="section">
+    <!-- ================= ACHIEVEMENTS ================= -->
 
-            <div class="section-label">
-                05 / ACHIEVEMENTS
-            </div>
+    <section class="section" id="achievements">
+
+        <div class="section-container">
 
             <div class="section-heading">
 
+                <span>05</span>
+
                 <h2>
-                    Milestones along
-                    <span>the way.</span>
+                    Achievements
                 </h2>
 
             </div>
 
 
-            <div class="achievement-grid">
+            <div class="achievements-grid">
+
 
                 <div class="achievement-card">
-                    <strong>500+</strong>
-                    <p>LeetCode Problems</p>
+
+                    <div class="achievement-number">
+                        500+
+                    </div>
+
+                    <h3>
+                        LeetCode Problems
+                    </h3>
+
+                    <p>
+                        Consistent problem solving across Data Structures
+                        and Algorithms.
+                    </p>
+
                 </div>
 
-                <div class="achievement-card">
-                    <strong>Top 8%</strong>
-                    <p>AlgoUniversity Ranking Challenge</p>
-                </div>
 
                 <div class="achievement-card">
-                    <strong>92%</strong>
-                    <p>NPTEL Programming in Java</p>
+
+                    <div class="achievement-number">
+                        Top 8%
+                    </div>
+
+                    <h3>
+                        AlgoUniversity
+                    </h3>
+
+                    <p>
+                        Qualified Stage 1 of the Ranking Challenge.
+                    </p>
+
                 </div>
 
-                <div class="achievement-card">
-                    <strong>Top 5%</strong>
-                    <p>NPTEL Joy of Computing using Python</p>
-                </div>
 
                 <div class="achievement-card">
-                    <strong>Top 5%</strong>
-                    <p>NPTEL DBMS</p>
+
+                    <div class="achievement-number">
+                        92%
+                    </div>
+
+                    <h3>
+                        NPTEL Java
+                    </h3>
+
+                    <p>
+                        Completed Programming in Java certification.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement-card">
+
+                    <div class="achievement-number">
+                        Top 5%
+                    </div>
+
+                    <h3>
+                        NPTEL DBMS
+                    </h3>
+
+                    <p>
+                        Achieved a Top 5% All India performance.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement-card">
+
+                    <div class="achievement-number">
+                        Top 5%
+                    </div>
+
+                    <h3>
+                        NPTEL Python
+                    </h3>
+
+                    <p>
+                        Joy of Computing using Python certification.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement-card">
+
+                    <div class="achievement-number">
+                        1st
+                    </div>
+
+                    <h3>
+                        Technical & Communication Events
+                    </h3>
+
+                    <p>
+                        Participated and performed in multiple college and
+                        inter-college events.
+                    </p>
+
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- CONTACT -->
-        <section id="contact" class="contact-section">
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact-section" id="contact">
+
+        <div class="section-container">
 
             <div class="contact-box">
 
-                <p class="section-label">
-                    06 / CONTACT
-                </p>
+                <span class="eyebrow">
+                    LET'S CONNECT
+                </span>
 
                 <h2>
-                    Let's build something
-                    <span>useful.</span>
+                    Have an opportunity<br>
+                    or an idea?
                 </h2>
 
                 <p>
-                    I'm always interested in learning, building and
-                    connecting with people working on interesting problems.
+                    I'm always interested in learning, building projects
+                    and connecting with people in technology.
                 </p>
 
                 <div class="contact-buttons">
 
                     <a
-                        href="https://github.com/varshitha07-tanniru"
-                        target="_blank">
-                        GitHub ↗
+                        href="mailto:varshithatanniru@gmail.com"
+                        class="btn primary-btn">
+                        Email Me
                     </a>
 
                     <a
                         href="https://www.linkedin.com/in/varshitha-tanniru-95480431a"
-                        target="_blank">
-                        LinkedIn ↗
+                        target="_blank"
+                        class="btn secondary-btn">
+                        LinkedIn
                     </a>
 
                 </div>
 
             </div>
 
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div>
-            <strong>Varshitha Tanniru</strong>
-            <p>Java Backend Developer · Problem Solver</p>
         </div>
 
-        <p>© 2026 Varshitha Tanniru</p>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <p>
+                © 2026 Varshitha Tanniru
+            </p>
+
+            <p>
+                Java Backend • DSA • Building
+            </p>
+
+            <a href="#home">
+                Back to top ↑
+            </a>
+
+        </div>
 
     </footer>
 
