@@ -1,5 +1,3 @@
-/* ================= TOKENS ================= */
-
 :root {
   --ink: #1D2321;
   --ink-soft: #4B534F;
@@ -694,6 +692,47 @@ h3 {
 }
 
 
+/* ================= HACKATHON HIGHLIGHT ================= */
+
+/*
+  Gives the hackathon a subtle visual distinction
+  because it is a major technical achievement.
+*/
+
+.timeline-item.hackathon-item {
+  background: rgba(201, 162, 39, 0.045);
+
+  border: 1px solid rgba(201, 162, 39, 0.22);
+
+  border-radius: 5px;
+
+  padding: 1.4rem 1.5rem 1.8rem 2rem;
+
+  margin-left: 0.5rem;
+
+  margin-bottom: 2.5rem;
+}
+
+.timeline-item.hackathon-item::before {
+  background: var(--gold);
+
+  width: 12px;
+  height: 12px;
+
+  left: -7px;
+}
+
+.timeline-item.hackathon-item .timeline-company {
+  color: var(--pine-dark);
+
+  font-weight: 600;
+}
+
+.timeline-item.hackathon-item .timeline-content h3 {
+  color: var(--pine-dark);
+}
+
+
 /* ================= EXPERIENCE TAGS ================= */
 
 .experience-tags {
@@ -720,6 +759,14 @@ h3 {
   border-radius: 3px;
 
   padding: 0.25rem 0.55rem;
+}
+
+.timeline-item.hackathon-item .experience-tags span:first-child {
+  color: #8A6D1B;
+
+  background: rgba(201, 162, 39, 0.12);
+
+  border-color: rgba(201, 162, 39, 0.25);
 }
 
 
@@ -964,6 +1011,10 @@ footer {
     display: none;
   }
 
+  .timeline-item.hackathon-item {
+    margin-left: 0.25rem;
+  }
+
 }
 
 
@@ -1016,6 +1067,11 @@ footer {
     gap: 0.5rem;
 
     text-align: center;
+  }
+
+  .timeline-item.hackathon-item {
+    padding-left: 1.25rem;
+    padding-right: 1rem;
   }
 
 }
